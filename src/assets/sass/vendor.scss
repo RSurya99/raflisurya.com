@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-1{
+  @apply text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-medium mb-6;
+}
+
+.text {
+  @apply text-xl xl:text-2xl text-slate-200;
+}
